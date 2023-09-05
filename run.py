@@ -5,21 +5,15 @@ import pandas as pd
 import re
 import numpy as np
 from transformers import AutoTokenizer, AutoModel
-import torch
 import time
 import asyncio
 from copy import deepcopy
 from pathlib import Path
 from dotenv import load_dotenv
-import os
 
 pd.set_option('display.max_columns', 60)
 
 load_dotenv(override=True)
-
-print(os.getenv('OPENAI_API_KEY'))
-
-exit()
 
 async def run(lcase):
     def extract_last_figure(text):
@@ -99,7 +93,7 @@ async def run(lcase):
 
     chainpg = LLMChain(llm=ChatOpenAI(model_name="gpt-4",request_timeout=500), prompt=prompt_pred_guide)
 
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = "cpu"  # streamlit cloud doesn't support cuda
 
 
     #np.bool = np.bool_
@@ -112,13 +106,13 @@ async def run(lcase):
     # Your data
 
     # Function to convert text to embeddings
-    def text_to_embedding(text):
-        inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
-        inputs = inputs.to(device)
-        with torch.no_grad():
-            outputs = model(**inputs)
-        embeddings = outputs[0][:,0,:].cpu().numpy()  # we take the embedding of the [CLS] token
-        return embeddings
+    # def text_to_embedding(text):
+    #     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
+    #     inputs = inputs.to(device)
+    #     with torch.no_grad():
+    #         outputs = model(**inputs)
+    #     embeddings = outputs[0][:,0,:].cpu().numpy()  # we take the embedding of the [CLS] token
+    #     return embeddings
 
 
 

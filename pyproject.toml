@@ -7,12 +7,11 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 streamlit = "^1.26.0"
 pandas = "^2.1.0"
 numpy = "^1.25.2"
 transformers = "^4.33.0"
-torch = "^2.0.1"
 asyncio = "^3.4.3"
 langchain = "^0.0.281"
 openai = "^0.28.0"
