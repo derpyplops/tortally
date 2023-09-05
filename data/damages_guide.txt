@@ -1,0 +1,41 @@
+PERSONAL INJURY CASES - DAMAGE ESTIMATE PROCESS
+
+Assumptions:
+Insurance coverage/money available is not an issue or a limiting factor
+All cases have gone all the way through the litigation process and through trial (no settling outside of court, prior to trial, etc as this would affect expenses and potential value)
+Values assessed without additional research into record verdicts, etc., in New York as that is not where I practice
+All cases had at least some damages awarded as New York is a comparative negligence state (as previously mentioned)
+Workers’ compensation/labor cases were evaluated according to the mechanism
+of injury (motor vehicle collision, premises liability, etc)
+
+Relevant Factors/Value Drivers that may increase or decrease value:
+● Surgical vs. nonsurgical - nonsurgical cases aren’t necessarily low value cases, but it is easier to prove both the existence and severity of an injury with surgical records (Increases Value)
+
+
+● How avoidable was the injury? A true accident where both parties are similarly at fault is very different than an egregious harm caused, especially if the harm is perceived as someone being careless
+● What percentage was the plaintiff (injured party) at fault?
+● Any heightened standard of duty on the part of the defendant (Increases Value)
+    
+ ● Is plaintiff part of a vulnerable group (child, elderly, disabled, etc)? - this can be both a legally protected group or someone who is perceived as less able to care for themselves (Increases Value)
+● Future medical treatment
+● Medical treatment - amount, type, and cost
+● Plaintiff’s pre-existing medical conditions (Decreases value)
+● Settlement negotiations - if the defendant has made a very low settlement offer,
+the plaintiff may have had to take the case to trial and receive an award higher
+than what they would have settled for
+● Lost wages/lost future earnings (increases value)
+● Permanent disability (increases value)
+● Shock factor - to put it bluntly, how horrified would a jury be upon hearing how
+this injury happened? Is it something that can ever truly be compensated through
+a monetary payout?
+● History of plaintiff - both criminal and previous injury claims as well as general litigiousness. One thing juries cannot stand is someone they perceive to be trying to “game the system” and get paid for something they don’t deserve, especially in more conservative venues. (decreases value)
+● History of defendant - both criminal and any previous claims against (decreases value)
+● State of scene of injury - property damage in motor vehicle collisions, visible damage in premises liability cases, etc.
+● Venue - conservative (decreases value) or liberal (increases value)?
+● Judge - plaintiff friendly or defendant friendly?
+● Opposing counsel - how likely are they to settle? Do they play fair or play dirty?
+Process:
+When evaluating what a case is worth, there are a ton of factors, not all of which can necessarily be quantified. I generally start by adding up the medical bills (excluding collateral sources such as health insurance) or estimating potential medical bills based on treatment if I don’t have that information, adding any lost wages, and going from there. A surgical case will automatically add value, both in actual medical bills and in evidencing the seriousness of an injury. People generally do not get surgery for injuries that don’t exist. Expert witnesses can be brought in to attest to future medical treatment, bills, and disability level, and these quantitative values can all be added to the total award. All of these numbers can be found or estimated pretty easily.
+From there, I go through the more qualitative factors and try to determine how big of an effect those will have. Generally, juries award more against corporate defendants than individuals. They also have to trust both the plaintiff and the expert witnesses, which is a huge factor. A seemingly small mark on a plaintiff’s history can have a huge
+ 
+effect on case value. Previous injuries or medical conditions also have a big impact. Lastly, what separates the highest value cases is how egregious the injury was and how preventable it was - the shock factor that I mentioned above. While all injured parties deserve to be properly compensated for their injuries, there are some injuries that rise to the level of wanton conduct; these injuries are the kind that no one can imagine happening to themselves or their family members. These often come up in medical malpractice cases, which tend to be either high value immediately or non-viable cases due to high standards for proving negligence; however, if there is a solid liability case, juries tend to hold medical professionals to high damage standards because of the perception of the trust necessary to place yourself under a doctor’s care. I generally advise clients that in order to be paid out that kind of money, you must be injured in a way that no amount of money could ever make up for. All of the above factors are relevant in valuing a personal injury case.
