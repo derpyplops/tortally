@@ -3,7 +3,7 @@ from run import run
 import asyncio
 
 def main():
-    st.title("Sadowsky App")
+    st.title("Tortally")
     lcase = st.text_input("Enter a summary of a case:")
 
     if st.button("Submit"):
