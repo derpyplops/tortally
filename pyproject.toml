@@ -16,6 +16,9 @@ asyncio = "^3.4.3"
 langchain = "^0.0.281"
 openai = "^0.28.0"
 python-dotenv = "^1.0.0"
+pyngrok = "^6.0.0"
+torch = "^2.0.1"
+rich = "^13.5.2"
 
 
 [build-system]
