@@ -4,10 +4,8 @@ from langchain.chat_models import ChatOpenAI
 import pandas as pd
 import re
 import numpy as np
-from transformers import AutoTokenizer, AutoModel
 import time
 import asyncio
-from copy import deepcopy
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -92,31 +90,6 @@ async def run(lcase):
     )
 
     chainpg = LLMChain(llm=ChatOpenAI(model_name="gpt-4",request_timeout=500), prompt=prompt_pred_guide)
-
-    device = "cpu"  # streamlit cloud doesn't support cuda
-
-
-    #np.bool = np.bool_
-    # Load pre-trained model and tokenizer
-    model_name = "intfloat/e5-large"
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    model = AutoModel.from_pretrained(model_name)
-    model = model.to(device)
-
-    # Your data
-
-    # Function to convert text to embeddings
-    # def text_to_embedding(text):
-    #     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512)
-    #     inputs = inputs.to(device)
-    #     with torch.no_grad():
-    #         outputs = model(**inputs)
-    #     embeddings = outputs[0][:,0,:].cpu().numpy()  # we take the embedding of the [CLS] token
-    #     return embeddings
-
-
-
-
 
     from copy import deepcopy
 
